@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EXAMEN2_progra3", "EXAMEN2_progra3\EXAMEN2_progra3.csproj", "{9D187627-A6FA-4103-BDE6-E66024D20BD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E7CE448-144A-4F9F-9A7E-0D296F55E71C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D187627-A6FA-4103-BDE6-E66024D20BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D187627-A6FA-4103-BDE6-E66024D20BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D187627-A6FA-4103-BDE6-E66024D20BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D187627-A6FA-4103-BDE6-E66024D20BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79724558-8004-4A96-A6F8-D62F6F43555F}
+	EndGlobalSection
+EndGlobal

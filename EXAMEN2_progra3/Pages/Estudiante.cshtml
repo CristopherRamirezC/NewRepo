@@ -1,0 +1,29 @@
+﻿@page
+@model EXAMEN2_progra3.Pages.EstudianteModel
+@{
+    ViewData["Title"] = "Lista de Estudiantes";
+}
+
+<h2>Lista de Estudiantes</h2>
+
+<form method="get">
+    <div class="form-group">
+        <label for="searchTerm">Buscar por Nombre:</label>
+        <input type="text" id="searchTerm" name="searchTerm" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+
+<ul class="list-group">
+    @foreach (var item in Model.ListaDeEstudiantes.Where(estudiante => string.IsNullOrEmpty(Request.Query["searchTerm"]) || estudiante.Nombre.ToLower().Contains(Request.Query["searchTerm"].ToString().ToLower())))
+    {
+        <li class="list-group-item">
+            <strong>Cedula:</strong> @item.Cedula<br />
+            <strong>Nombre:</strong> @item.Nombre<br />
+            <strong>Edad:</strong> @item.Edad<br />
+            <strong>Carrera:</strong> @item.Carrera<br />
+            <strong>Cantidad de Cursos Llevados:</strong> @item.CantidadCursos<br />
+        </li>
+    }
+</ul>
+}
